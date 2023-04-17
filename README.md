@@ -1,12 +1,12 @@
 # Rumble Clone
 
-A simple Rumble clone built with Next.js, Tailwind CSS and RapidAPI.
+A simple Rumble clone built with React, Tailwind CSS and RapidAPI.
 
 ## About
 
-This is a simple Rumble clone project built with Next.js, Tailwind CSS and RapidAPI that offers a functional replica of the popular video sharing platform, Rumble. With this clone, you can easily view videos, search for content, and visit user channels, all in a user-friendly and responsive interface.
+This is a simple Rumble clone project built with React, Tailwind CSS and RapidAPI that offers a functional replica of the popular video sharing platform, Rumble. With this clone, you can easily view videos, search for content, and visit user channels, all in a user-friendly and responsive interface.
 
-I created this project as part of my ongoing efforts to improve my web development skills using Next.js and Tailwind CSS. This project serves as a great example of how these powerful tools can be used to create intuitive and interactive web applications.
+I created this project as part of my ongoing efforts to improve my web development skills using React and Tailwind CSS. This project serves as a great example of how these powerful tools can be used to create intuitive and interactive web applications.
 
 To power the video content in this clone, I utilized RapidAPI's Youtube API since there is no public API available for accessing Rumble videos. Although the videos are sourced from Youtube, the app successfully replicates the design and features of Rumble's video platform, giving users a familiar and seamless experience.
 
