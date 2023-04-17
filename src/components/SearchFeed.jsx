@@ -30,8 +30,14 @@ const SearchResult = () => {
         <div className="grid grid-cols-1 gap-2 p-5">
           {result?.map((item) => {
             if (item?.type !== "video") return false;
+            console.log("SearchFeed", item);
             let video = item.video;
-            return <SearchFeedVideoCard key={video.videoId} video={video} />;
+            return (
+              <SearchFeedVideoCard
+                key={video.videoId + video.lengthSeconds}
+                video={video}
+              />
+            );
           })}
         </div>
       </div>

@@ -82,7 +82,7 @@ const VideoDetails = () => {
                 </div>
                 <div className="flex flex-col ml-3">
                   <div className="text-black text-md font-semibold flex items-center">
-                    {channelTitle || "Joe Biden"}
+                    {channelTitle || "Loading..."}
                     {channelBadge === "VERIFIED_CHANNEL" && (
                       <BsFillCheckCircleFill className="text-[#85c742] text-[12px] ml-1" />
                     )}
@@ -97,7 +97,7 @@ const VideoDetails = () => {
             <div className="flex text-white mt-4 md:mt-0">
               <div className="flex items-center justify-center h-11 px-6 rounded-3xl bg-[#e73348]">
                 <AiOutlineLike className="text-xl text-white mr-2" />
-                {`${abbreviateNumber(videoViews || 0, 2)} Likes`}
+                {video?.stats?.likes}
               </div>
               <div className="flex bg-[#85c742] items-center justify-center h-11 px-6 rounded-3xl text-black ml-4">
                 {`${abbreviateNumber(videoViews || 0, 2)} Views`}

@@ -34,7 +34,6 @@ const ChannelDetails = () => {
   const subscribersText = channelDetails?.stats?.subscribersText;
   const avatarUrl = channelDetails?.avatar[2]?.url;
   const channelTitle = channelDetails?.title;
-  // const videoLengthInSeconds = 
 
   return (
     <div className="flex flex-col h-[calc((h-full)-56px)] bg-[#f3f5f8]">

@@ -18,6 +18,7 @@ const Header = () => {
       searchQuery.length > 0
     ) {
       navigate(`/searchResult/${searchQuery}`);
+      setSearchQuery("");
     }
   };
 
